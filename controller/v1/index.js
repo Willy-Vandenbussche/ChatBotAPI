@@ -1,5 +1,18 @@
-const dialogs= require("../../dialog.json")
-
+const dialogs = [{ question: "Salut",
+                   answer: "salut mon reuf"
+},
+{
+                   question: "Bonjour",
+                   answer: "bonjaour mon reuf"
+},
+{
+                   question: "ça va ?",
+                   answer: "trql et toi mon reuf"
+},
+{
+                   question: "Quoi",
+                   answer: "Feur"
+}]
 const dialogcontroller ={
     home :  (req, res) => {
         res.send('Hello World !')
