@@ -24,6 +24,11 @@ app.get('/api/v1/dialogs', (req, res) => {
     res.status(200).json({message: dialogs})
 })
 
+app.get('*',(req, res) => {
+    //res.status(404).json({message: 'Not Found essaie plus tard !!!'})
+    res.sendFile(__dirname + '/view/404.html')
+})
+
 app.post('/api/v1/dialogs', (req, res) => { 
     console.log(req.body.question)
     let matchFound = flase;
