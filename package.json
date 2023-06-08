@@ -1,17 +1,22 @@
 {
-  "name": "back",
+  "name": "chatbotstjo",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HECQUETquentin/ChatBotstjo.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HECQUETquentin/ChatBotstjo/issues"
+  },
+  "homepage": "https://github.com/HECQUETquentin/ChatBotstjo#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "cors": "^2.8.5"
   }
 }
